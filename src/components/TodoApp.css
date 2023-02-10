@@ -1,0 +1,83 @@
+.box{
+    background: linear-gradient(to right bottom, rgb(179, 179, 143), rgb(244, 190, 89));
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper{
+    background-color: #12343b;
+    min-width: 450px;
+    min-height: 650px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 3px 6px 40px black;
+    margin-bottom: 10px;
+  }
+  .header h1{
+    color: darkolivegreen;
+    text-align: center;
+    margin: 30px;
+    text-decoration: underline;
+  }
+  .textfield{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    display: flex;
+    text-align: center;
+  }
+  input{
+    width: 280px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  button{
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    
+  }
+  .todos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* .todo{
+    margin-top: 1em;
+    width: 20em;
+    height: 2em;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    padding: 5px;
+  } */
+  .left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+     
+  }
+  .list{
+    background-color: white;
+    width: 320px;
+    height: 35px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 15px;
+    
+  }
+
+  p{
+    color: darkolivegreen;
+    margin-left: 20px;
+    font-size: medium;
+    font-weight: 100;
+  }
