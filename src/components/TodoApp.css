@@ -59,25 +59,12 @@
     border-radius: 6px;
     padding: 5px;
   } */
-  .left{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-     
-  }
-  .list{
-    background-color: white;
-    width: 320px;
-    height: 35px;
-    padding: 5px;
-    margin-top: 20px;
-    margin-left: 15px;
-    
-  }
+
 
   p{
     color: darkolivegreen;
     margin-left: 20px;
     font-size: medium;
     font-weight: 100;
+    margin-top: 10px;
   }
