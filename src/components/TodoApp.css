@@ -43,10 +43,10 @@
     
   }
   .todos{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; */
   }
   /* .todo{
     margin-top: 1em;
@@ -67,4 +67,13 @@
     font-size: medium;
     font-weight: 100;
     margin-top: 10px;
+  }
+  #dlt{
+    float: inline-end;
+    
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
   }
